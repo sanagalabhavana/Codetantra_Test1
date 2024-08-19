@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Congrats_msg_using_name {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		System.out.print("Enter Student name: ");
+		String name=s.nextLine();
+		System.out.println("Hello, "+name+". Congratulations on passing your last exams.");
+	}
+
+}
