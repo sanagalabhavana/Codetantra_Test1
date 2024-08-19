@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Type_casting_Example2 {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		System.out.print("Enter the number: ");
+		double a=s.nextDouble();
+		System.out.println("After narrowing values are: ");
+		float b=(float)a;
+		System.out.println("Float value: "+b);
+		long c=(long)a;
+		System.out.println("Long value: "+c);
+		int d=(int)a;
+		System.out.println("Int value: "+d);
+
+	}
+
+}
