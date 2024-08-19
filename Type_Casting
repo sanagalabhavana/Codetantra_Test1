@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Type_Casting {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		System.out.print("Enter a double value: ");
+		double a=s.nextDouble();
+		System.out.println("Original Value before Casting: "+a);
+		short b=(short)a;
+		System.out.println("After Type Casting to short: "+b);
+		int c=(int)a;
+		System.out.println("After Type Casting to int: "+c);
+
+	}
+
+}
