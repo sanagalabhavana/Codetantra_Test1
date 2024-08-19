@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Convert_String_to_Double {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		System.out.print("Enter a double value: ");
+		String num=s.nextLine();
+		double ans=Double.parseDouble(num);
+		System.out.println("Double value entered: "+ans);
+
+	}
+
+}
